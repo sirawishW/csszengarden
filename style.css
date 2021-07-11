@@ -1,8 +1,10 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
-  background: url(img/zengarden.jpg);
-  background-size: auto;
-  background-position: 0pt;
+  background: url(img/zengarden.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 .page-wrapper {

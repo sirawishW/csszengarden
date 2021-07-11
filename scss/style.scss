@@ -1,0 +1,47 @@
+$text-color : #ff5500;
+$bg-color : rgba(255, 248, 220, 0.8);
+$bghead-color : rgba(245, 222, 179, 0.9);
+$link-color : brown;
+$hover-color : #FF5733;
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: url(img/zengarden.jpg);
+  background-repeat: no-repeat;
+  background-position: 0pt;
+}
+
+.page-wrapper{
+  padding: 50px;
+}
+
+[role = banner]{
+  color: $text-color;
+  background-color: $bghead-color;
+  text-align: center;
+  font-size: 2em;
+}
+
+.summary{
+  color: $text-color;
+  background-color: $bghead-color;
+  text-align: center;
+  font-size: 1.2em;
+}
+
+h3 {
+  color: $text-color;
+  background-color: $bg-color;
+}
+
+.sidebar, .preamble, .explanation, .participation , .benefits , .requirements , .main, footer{
+  padding: 10px;
+  background-color: $bg-color;
+}
+a {
+  color: $link-color;
+}
+
+a:hover {
+  color: $hover-color;
+}
